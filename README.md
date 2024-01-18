@@ -5,7 +5,7 @@ January 2024.
 
 HOW TO USE:
 
-1. Download main.py and config.ini and move files into a python project.  
+1. Download main.py and config.ini, and move files into a python project.  
 2. Setup background video.  
    -Obtain a 16x9 aspect ratio background video and name it "background.mp4."  
    -In your python project, move background.mp4 to the same file location as main.py.  
