@@ -5,11 +5,13 @@
 # More information can be found at https://github.com/RyanTietjen/ContentGenerator
 
 import random  # used to get a random point from the background video
+import re # Used to edit file text
 import praw  # Reddit API; used to get posts
 from boto3 import Session  # AWS Polly client; used for TTS
 from moviepy.editor import *  # Produces the final video
 import configparser  # Used in conjunction with the config file
 import whisper_timestamped  # Used to generate subtitles
+import ffmpeg # must be installed
 
 
 # main function to generate posts.
@@ -49,7 +51,7 @@ def generate_subtitles():
     subtitles = []
 
     model = whisper_timestamped.load_model("base")
-    audio = "output from tts.mp3"
+    audio = "output.mp3"
     results = whisper_timestamped.transcribe(model, audio)
 
     for segment in results["segments"]:
@@ -75,7 +77,7 @@ def text_to_speech(text, output_format='mp3', voice_id='Matthew'):
     )
 
     # Save audio to a file
-    with open('output from tts.mp3', 'wb') as file:
+    with open('output.mp3', 'wb') as file:
         file.write(response['AudioStream'].read())
 
 
@@ -115,7 +117,7 @@ def wrap_text(text, font, max_width):
 # Combines all parts of the video into the final result
 def produce_final_video(title, subtitles):
     print("GENERATING VIDEO")
-    tts = AudioFileClip("output from tts.mp3")
+    tts = AudioFileClip("output.mp3")
     new_tts = CompositeAudioClip([tts])
 
     video = VideoFileClip("background.mp4")
@@ -166,7 +168,12 @@ def produce_final_video(title, subtitles):
         clips.append(txt_clip)
 
     final_video = CompositeVideoClip(clips)
-    final_video.write_videofile(title + ".mp4")
+
+    # Edits file name to avoid errors
+    temp_title = re.sub(r'[\\/*?:"<>|]', "", title)
+    if len(temp_title) > 100:
+        temp_title = temp_title[:100].rsplit(' ', 1)[0]
+    final_video.write_videofile(temp_title + ".mp4")
 
 
 # Sets up config file
