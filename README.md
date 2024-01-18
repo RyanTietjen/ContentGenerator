@@ -1,6 +1,6 @@
 # ContentGenerator
-Short-Form Content Generator for Tiktok, Youtube Shorts, etc.
-Created by Ryan Tietjen.
+Short-Form Content Generator for Tiktok, Youtube Shorts, etc.  
+Created by Ryan Tietjen.  
 January 2024.
 
 HOW TO USE:
