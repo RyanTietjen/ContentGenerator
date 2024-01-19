@@ -16,6 +16,6 @@ HOW TO USE:
    -Use "pip install \[dependency\]"
    -OR (in pycharm) go to File -> Settings -> Project: \[Project Name\] -> Python Interpreter -> click the "+" -> search for dependencies -> Install Package
    -In addition, [ImageMagick](https://imagemagick.org/) must be installed,
-4. Obtain Reddit client_id, client_secret, user_agent (fill in this information in the config file)
+4. Obtain Reddit client_id, client_secret, user_agent (fill in this information in the config file)  
    -REQUIRED: Create a new app [here](https://www.reddit.com/prefs/apps)
 5. Obtain AWS access_key_id and secret_access_key (fill in this information in the config file)
