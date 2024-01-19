@@ -12,6 +12,7 @@ HOW TO USE:
    -The video used in the samples can be found [here](https://www.youtube.com/watch?v=952ILTHDgC4).  
    -RECOMMENDED: Use [stacher.io](https://stacher.io/) to download the video from youtube (free).  
    -RECOMMENDED: Use [ClipChamp](https://clipchamp.com/en/) to reformat the video to 16x9.  
-4. Install Dependencies  
-   - 
+3. Install Dependencies  
+   - use "pip install \[dependency\]"
+   - OR
    - In addition, [ImageMagick](https://imagemagick.org/) must be installed,
