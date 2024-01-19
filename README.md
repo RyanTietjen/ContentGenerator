@@ -13,6 +13,8 @@ HOW TO USE:
    -RECOMMENDED: Use [stacher.io](https://stacher.io/) to download the video from youtube (free).  
    -RECOMMENDED: Use [ClipChamp](https://clipchamp.com/en/) to reformat the video to 16x9.  
 3. Install Dependencies  
-   - use "pip install \[dependency\]"
-   - OR (in pycharm) go to File -> Settings -> Project: \[Project Name\] -> Python Interpreter -> click the "+" -> search for dependencies -> Install Package
-   - In addition, [ImageMagick](https://imagemagick.org/) must be installed,
+   -Use "pip install \[dependency\]"
+   -OR (in pycharm) go to File -> Settings -> Project: \[Project Name\] -> Python Interpreter -> click the "+" -> search for dependencies -> Install Package
+   -In addition, [ImageMagick](https://imagemagick.org/) must be installed,
+4. Obtain Reddit client_id, client_secret, user_agent (fill in this information in the config file)
+   -REQUIRED: Create a new app [here](https://www.reddit.com/prefs/apps)
