@@ -1,11 +1,11 @@
 # ContentGenerator
-Short-Form Content Generator for Tiktok, Youtube Shorts, etc.  
+Short-Form Content Generator for TikTok, Youtube Shorts, etc.  
 Created by Ryan Tietjen.  
 January 2024.
 
-[Sample 1](https://youtu.be/CfCJ2r-iS5U) 
-[Sample 2](https://youtu.be/kbGNfAiELp0) 
-[Sample 3](https://youtu.be/6RRYg48KFPU) 
+[Sample 1](https://youtu.be/CfCJ2r-iS5U)  
+[Sample 2](https://youtu.be/kbGNfAiELp0)  
+[Sample 3](https://youtu.be/6RRYg48KFPU)  
 
 HOW TO USE:
 
