@@ -22,5 +22,5 @@ HOW TO USE:
    -In addition, [ImageMagick](https://imagemagick.org/) must be installed.  
 4. Obtain Reddit client_id, client_secret, user_agent (fill in this information in the config file)  
    -REQUIRED: Create a new app [here](https://www.reddit.com/prefs/apps)
-5. Obtain AWS access_key_id and secret_access_key (fill in this information in the config file)
+5. Obtain AWS access_key_id and secret_access_key (fill in this information in the config file)  
    -Information can be found [here](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-2#/home)
