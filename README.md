@@ -3,8 +3,8 @@ Short-Form Content Generator for TikTok, Youtube Shorts, etc.
 Created by Ryan Tietjen.  
 January 2024.
 
-[Sample 1](https://www.tiktok.com/@the.reddit.awards/video/7402646530714389790)
-[Sample 2](https://www.tiktok.com/@the.reddit.awards/video/7403080230232919326)
+[Sample 1](https://www.tiktok.com/@the.reddit.awards/video/7402646530714389790)\
+[Sample 2](https://www.tiktok.com/@the.reddit.awards/video/7403080230232919326)\
 [Sample 3](https://www.tiktok.com/@the.reddit.awards/video/7403470834024615214)
 
 [Old Sample 1](https://youtu.be/CfCJ2r-iS5U)  
